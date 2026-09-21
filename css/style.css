@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 29, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CDCFCE;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#logo-menu {
+    width: 100px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+nav p {
+    color: rgb(205, 207, 207);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav p:hover {
+    color: rgb(140, 170, 200);
+    cursor: pointer;
+}
+
+nav span {
+    color: rgb(140, 170, 200);
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#texto {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+#texto h1 {
+    font-size: 65px;
+    line-height: 0.9;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+#texto h1 strong {
+    color: rgb(140, 170, 200);
+}
+
+#texto h1::before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: rgb(140, 170, 200);
+    margin-bottom: 25px;
+}
+
+#texto p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+#banner img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 3px;
+    background-color: rgb(205, 207, 207);
+    border-radius: 10px;
+}
+
+#funcionalidades h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#funcionalidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-position: inside;
+    gap: 10px;
+}
+
+#funcionalidades li {
+    width: 32.5%;
+    font-weight: 550;
+    padding: 10px;
+    background-color: rgb(205, 207, 207, 0.75);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(205, 207, 207);
+    color: rgb(15, 29, 54);
+}
+
+hr {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#servicos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+#servicos-destaque h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(15, 29, 54);
+}
+
+td {
+    width: 33%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(15, 29, 54);
+}
+
+.imagem {
+    border-style: solid;
+}
+
+td img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.preco {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 170, 200, 0.25);
+    border-color: rgb(255, 255, 255);
+}
+
+#ver-mais {
+    text-align: center;
+    background-color: rgb(205, 207, 207, 0.75);
+    border-style: solid;
+    border-color: rgb(205, 207, 207);
+    border-radius: 10px;
+    color: rgb(15, 29, 54);
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#ver-mais p:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
